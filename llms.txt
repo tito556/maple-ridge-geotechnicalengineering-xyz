@@ -1,0 +1,51 @@
+# Geotechnicalengineering — Maple Ridge
+
+> Geotechnical engineering services in Maple Ridge, Canada.
+
+## Services
+- [Anchors](https://maple-ridge.geotechnicalengineering.xyz/anchors/)
+- [Atterberg Limits](https://maple-ridge.geotechnicalengineering.xyz/atterberg-limits/)
+- [Cbr Road](https://maple-ridge.geotechnicalengineering.xyz/cbr-road/)
+- [Cpt Test](https://maple-ridge.geotechnicalengineering.xyz/cpt-test/)
+- [Deep Excavations](https://maple-ridge.geotechnicalengineering.xyz/deep-excavations/)
+- [Excavation Monitoring](https://maple-ridge.geotechnicalengineering.xyz/excavation-monitoring/)
+- [Excavations](https://maple-ridge.geotechnicalengineering.xyz/excavations/)
+- [Flexible Pavement](https://maple-ridge.geotechnicalengineering.xyz/flexible-pavement/)
+- [Footings](https://maple-ridge.geotechnicalengineering.xyz/footings/)
+- [Foundations](https://maple-ridge.geotechnicalengineering.xyz/foundations/)
+- [Grain Size](https://maple-ridge.geotechnicalengineering.xyz/grain-size/)
+- [Ground Improvement](https://maple-ridge.geotechnicalengineering.xyz/ground-improvement/)
+- [Grouting](https://maple-ridge.geotechnicalengineering.xyz/grouting/)
+- [In Situ Permeability](https://maple-ridge.geotechnicalengineering.xyz/in-situ-permeability/)
+- [Investigation](https://maple-ridge.geotechnicalengineering.xyz/investigation/)
+- [Lab In Situ](https://maple-ridge.geotechnicalengineering.xyz/lab-in-situ/)
+- [Laboratory](https://maple-ridge.geotechnicalengineering.xyz/laboratory/)
+- [Liquefaction](https://maple-ridge.geotechnicalengineering.xyz/liquefaction/)
+- [Masw](https://maple-ridge.geotechnicalengineering.xyz/masw/)
+- [Mat Foundations](https://maple-ridge.geotechnicalengineering.xyz/mat-foundations/)
+- [Piles](https://maple-ridge.geotechnicalengineering.xyz/piles/)
+- [Proctor Tests](https://maple-ridge.geotechnicalengineering.xyz/proctor-tests/)
+- [Resistivity](https://maple-ridge.geotechnicalengineering.xyz/resistivity/)
+- [Retaining Walls](https://maple-ridge.geotechnicalengineering.xyz/retaining-walls/)
+- [Rigid Pavement](https://maple-ridge.geotechnicalengineering.xyz/rigid-pavement/)
+- [Road Geotechnics](https://maple-ridge.geotechnicalengineering.xyz/road-geotechnics/)
+- [Sand Cone Density](https://maple-ridge.geotechnicalengineering.xyz/sand-cone-density/)
+- [Seismic](https://maple-ridge.geotechnicalengineering.xyz/seismic/)
+- [Seismic Isolation](https://maple-ridge.geotechnicalengineering.xyz/seismic-isolation/)
+- [Seismic Microzonation](https://maple-ridge.geotechnicalengineering.xyz/seismic-microzonation/)
+- [Seismic Refraction](https://maple-ridge.geotechnicalengineering.xyz/seismic-refraction/)
+- [Slope Stability](https://maple-ridge.geotechnicalengineering.xyz/slope-stability/)
+- [Slopes](https://maple-ridge.geotechnicalengineering.xyz/slopes/)
+- [Soft Ground Tunnels](https://maple-ridge.geotechnicalengineering.xyz/soft-ground-tunnels/)
+- [Spt Drilling](https://maple-ridge.geotechnicalengineering.xyz/spt-drilling/)
+- [Stone Columns](https://maple-ridge.geotechnicalengineering.xyz/stone-columns/)
+- [Test Pits](https://maple-ridge.geotechnicalengineering.xyz/test-pits/)
+- [Triaxial](https://maple-ridge.geotechnicalengineering.xyz/triaxial/)
+- [Vibrocompaction](https://maple-ridge.geotechnicalengineering.xyz/vibrocompaction/)
+
+## Contact
+- Website: https://maple-ridge.geotechnicalengineering.xyz/
+
+## About
+This site provides geotechnical engineering services in Maple Ridge, Canada.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
