@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Seismic in Maple Ridge – Canada</title>
 <meta name="description" content="Maple Ridge sits on variable glacial and alluvial deposits overlying bedrock, with portions of the municipality falling within moderate seismic hazard zone">
@@ -19,62 +19,61 @@
 <meta name="twitter:description" content="Maple Ridge sits on variable glacial and alluvial deposits overlying bedrock, with portions of the municipality falling within moderate seismic hazard zone">
 <meta name="twitter:image" content="https://maple-ridge.geotechnicalengineering.xyz/img/anclajes-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',Georgia,serif;background:#F5F5F4;color:#292524;line-height:1.7;font-size:16px}
-a{color:#D97706;text-decoration:none}
-a:hover{color:#B45309}
-/* HEADER DARK */
-.header{background:#1C1917;color:#FFF;padding:3rem 3rem 4rem}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-.brand{display:flex;align-items:flex-start;gap:1rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#D97706;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Inter',sans-serif}
-.brand-text{margin-top:.3rem}
-.brand-name{font-family:'Inter',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
-.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.header-email{color:#FFF;font-size:.88rem}
-.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#D97706}
-.header h1{font-family:'Inter',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
-/* LAYOUT */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+@media(max-width:900px){.layout{grid-template-columns:1fr}
+main h2{font-family:'Inter',serif;font-weight:700;font-size:1.6rem;color:#292524;margin:2rem 0 1rem;letter-spacing:.01em}
 /* SIDEBAR — modern clean */
 aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
-.sb-home{display:block;padding:1rem 1.25rem;font-family:'Inter',serif;font-weight:700;color:#FFF;background:#1C1917;letter-spacing:.02em;text-decoration:none;font-size:1rem}
-.sb-home:hover{color:#D97706}
-.cat-item{border-bottom:1px solid #F3F4F6}
+footer{background:#1C1917;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
 .cat-item:last-child{border-bottom:none}
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
-.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
-.cat-name:hover{color:#D97706;background:#F9FAFB}
-.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
-.cat-toggle:hover{color:#D97706;background:#F9FAFB}
-.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
+.cta h3{font-family:'Inter',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+.crumb-19d1 a:hover{color:#D97706}
+.cta p{color:#FFF !important;text-align:center !important}
 .cat-arrow svg{width:10px;height:10px;display:block}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+a:hover{color:#B45309}
+main p:first-child{font-size:1.05rem;color:#333}
 .cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
+.brand-text{margin-top:.3rem}aside{position:static}
+.brand-name{font-family:'Inter',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
+.cat-item{border-bottom:1px solid #F3F4F6}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#D97706;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Inter',sans-serif}
+details.faq summary{font-weight:700;color:#292524;list-style:none;font-family:'Inter',serif}
+.cta{background:#1C1917;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
+details.faq[open] summary{margin-bottom:.7rem;color:#B45309}
+.crumb-19d1 a{color:#FFF;text-decoration:underline;font-weight:600}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+*{margin:0;padding:0;box-sizing:border-box}
+/* HEADER DARK */
+.header{background:#1C1917;color:#FFF;padding:3rem 3rem 4rem}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Inter',serif}
+body{font-family:'Inter',Georgia,serif;background:#F5F5F4;color:#292524;line-height:1.7;font-size:16px}
+footer a{color:#D97706}
+a{color:#D97706;text-decoration:none}
+table th{background:#1C1917;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
+.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
+.cat-toggle:hover{color:#D97706;background:#F9FAFB}
+.sb-home:hover{color:#D97706}
 .cat-sub a:hover{color:#D97706;border-left-color:#D97706;background:#F3F4F6}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#292524}
+.header-email{color:#FFF;font-size:.88rem}
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+details.faq p{color:#444;margin:0}
+.crumb-19d1{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+.sb-home{display:block;padding:1rem 1.25rem;font-family:'Inter',serif;font-weight:700;color:#FFF;background:#1C1917;letter-spacing:.02em;text-decoration:none;font-size:1rem}
+.brand{display:flex;align-items:flex-start;gap:1rem}
+.cat-name:hover{color:#D97706;background:#F9FAFB}
 /* MAIN */
 main{background:#FFF;padding:3rem 3rem;min-height:60vh}
-main h2{font-family:'Inter',serif;font-weight:700;font-size:1.6rem;color:#292524;margin:2rem 0 1rem;letter-spacing:.01em}
-main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-main p:first-child{font-size:1.05rem;color:#333}
-.cta{background:#1C1917;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
-.cta h3{font-family:'Inter',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
-.cta p{color:#FFF !important;text-align:center !important}
-.cta a{color:#D97706;font-weight:600}
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Inter',serif}
-table th{background:#1C1917;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#292524}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
-details.faq summary{font-weight:700;color:#292524;list-style:none;font-family:'Inter',serif}
-details.faq[open] summary{margin-bottom:.7rem;color:#B45309}
-details.faq p{color:#444;margin:0}
-footer{background:#1C1917;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
-footer a{color:#D97706}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://maple-ridge.geotechnicalengineering.xyz/seismic/", "url": "https://maple-ridge.geotechnicalengineering.xyz/seismic/", "name": "Seismic in Maple Ridge – Canada", "inLanguage": "en", "description": "Maple Ridge sits on variable glacial and alluvial deposits overlying bedrock, with portions of the municipality falling within moderate seismic hazard zone", "isPartOf": {"@type": "WebSite", "@id": "https://maple-ridge.geotechnicalengineering.xyz/#website", "url": "https://maple-ridge.geotechnicalengineering.xyz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://maple-ridge.geotechnicalengineering.xyz/"}, {"@type": "ListItem", "position": 2, "name": "Seismic", "item": "https://maple-ridge.geotechnicalengineering.xyz/seismic/"}]}, {"@type": "ItemList", "name": "Seismic", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://maple-ridge.geotechnicalengineering.xyz/liquefaction/", "name": "Soil liquefaction analysis"}, {"@type": "ListItem", "position": 2, "url": "https://maple-ridge.geotechnicalengineering.xyz/seismic-isolation/", "name": "Base isolation seismic design"}, {"@type": "ListItem", "position": 3, "url": "https://maple-ridge.geotechnicalengineering.xyz/seismic-microzonation/", "name": "Seismic microzonation"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#374151"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.header h1{font-family:'Inter',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
+.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
+.cta a{color:#D97706;font-weight:600}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"inLanguage":"en","isPartOf":{"@type":"WebSite","url":"https://maple-ridge.geotechnicalengineering.xyz","@id":"https://maple-ridge.geotechnicalengineering.xyz/#website"},"description":"Maple Ridge sits on variable glacial and alluvial deposits overlying bedrock, with portions of the municipality falling within moderate seismic hazard zone","@type":"WebPage","name":"Seismic in Maple Ridge – Canada","@id":"https://maple-ridge.geotechnicalengineering.xyz/seismic/","url":"https://maple-ridge.geotechnicalengineering.xyz/seismic/"},{"itemListElement":[{"position":1,"@type":"ListItem","item":"https://maple-ridge.geotechnicalengineering.xyz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://maple-ridge.geotechnicalengineering.xyz/seismic/","name":"Seismic"}],"@type":"BreadcrumbList"},{"itemListElement":[{"position":1,"@type":"ListItem","name":"Soil liquefaction analysis","url":"https://maple-ridge.geotechnicalengineering.xyz/liquefaction/"},{"position":2,"@type":"ListItem","name":"Base isolation seismic design","url":"https://maple-ridge.geotechnicalengineering.xyz/seismic-isolation/"},{"position":3,"@type":"ListItem","name":"Seismic microzonation","url":"https://maple-ridge.geotechnicalengineering.xyz/seismic-microzonation/"}],"@type":"ItemList","name":"Seismic"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#374151"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 
 <header class="header">
     <div class="header-top">
@@ -87,7 +86,7 @@ footer a{color:#D97706}
         </div>
         <a href="mailto:contact@geotechnicalengineering.xyz" class="header-email">contact@geotechnicalengineering.xyz</a>
     </div>
-    <div class="crumb"><a href="/">Home</a> › <span>Seismic</span></div>
+    <div class="crumb-19d1"><a href="/">Home</a> › <span>Seismic</span></div>
     <h1>Seismic in Maple Ridge</h1>
 </header>
 
@@ -97,50 +96,14 @@ footer a{color:#D97706}
         <p>Maple Ridge sits on variable glacial and alluvial deposits overlying bedrock, with portions of the municipality falling within moderate seismic hazard zones under the National Building Code of Canada (NBC 2020). Our seismic category addresses site-specific ground response, liquefaction susceptibility, and foundation resilience where local silts and loose sands can amplify shaking. We integrate <a href="liquefaction">soil liquefaction analysis</a> with deep borehole data to quantify cyclic stress ratios, and we apply <a href="seismic-microzonation">seismic microzonation</a> to map hazard variability across the district, ensuring compliance with BC Building Code structural design requirements.</p>
 <p>Low- to mid-rise residential, institutional, and light industrial projects on Fraser River terraces routinely demand these assessments. For critical facilities and irregular structures, we pair site response studies with <a href="seismic-isolation">base isolation seismic design</a> to reduce spectral accelerations at foundation level. Whether densifying loose soils or detailing ductile lateral systems, our work keeps Maple Ridge developments aligned with geotechnical seismic safety standards.</p>
 
-        <blockquote style="border-left:4px solid #D97706;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">In Maple Ridge's glacial stratigraphy, the difference between an active and passive anchor system is often the difference between a millimeter of lateral movement and a costly neighbor dispute.</blockquote>
-
         
-
-        <h2>Methodology and scope</h2><div>The design of active and passive anchors in Maple Ridge follows CSA A23.3 Annex D for bond strength in rock and the Post-Tensioning Institute (PTI) recommendations for soil anchors, but the real challenge lies in the variable contact between the Fort Langley formation and the underlying glacial till. A 15-meter-deep excavation near 224 Street will encounter different bond stress values than a cut just 400 meters east, simply because the clay-silt content shifts. We specify double corrosion protection (DCP) for all permanent anchors, with a corrugated HDPE sheath and factory-grouted strand, because the seasonal groundwater fluctuation in the upland areas accelerates corrosion risk. In active systems, the lock-off load is typically set at 110 percent of the design load to offset relaxation losses in the tendon. Passive anchors, often high-strength threadbars installed in boreholes 100 to 150 millimeters in diameter, rely on a neat cement grout bond developed over a calculated fixed length, and we verify that bond through sacrificial test anchors that are pulled to 133 percent of the design load. The silty sand matrix that dominates much of the Albion flats responds well to post-grouting techniques, where a secondary grout injection through a tube á manchette lifts the ultimate bond stress from 150 kPa to over 400 kPa in some test programs.</div>
-        <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"><img src="/img/anclajes-3.webp" alt="Active and Passive Anchor Systems in Maple Ridge: Design Informed by Glacial Deposits" loading="lazy" style="width:100%;max-height:200px;object-fit:cover;display:block"></figure>
-        <h2>Local considerations</h2><p>A 2019 geological survey by the BC Ministry of Energy and Mines mapped the Maple Ridge area as underlain by up to 30 meters of Vashon Drift, a dense basal till that is often overlain by softer advance glaciolacustrine silts. The risk of not performing site-specific anchor testing is that bond stress values assumed from the PTI manual can overestimate capacity by 30 percent in these silts, leading to creep failure under sustained load. Another hazard specific to the high groundwater table along the Kanaka Creek corridor is hydrostatic pressure buildup behind a wall, which can increase the tension demand on passive anchors beyond the original design envelope. We have also observed that the cobble-rich lodgement till near the Golden Ears foothills deflects small-diameter drill bits, making it difficult to achieve the required bond zone alignment without a pilot hole. A thorough pre-production test program, usually involving three to five sacrificial anchors, eliminates these uncertainties before production drilling begins.</p>
-
-        
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block mid-cta-19d1" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#D9770615,#D9770608);border-left:4px solid #D97706;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
         <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering.xyz" style="display:inline-block;background:#D97706;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering.xyz</a></div>
       </div>
     </section>
-
-        
-
-        <h2>Applicable standards</h2><p>CSA A23.3-19 Annex D — Anchorage to Concrete and Rock, PTI DC35.1-14 — Recommendations for Prestressed Rock and Soil Anchors, ASTM A416/A416M-18 — Standard Specification for Low-Relaxation, Seven-Wire Steel Strand for Prestressed Concrete, NBCC 2020 Division B, Part 4 — Structural Design for Seismic Loads</p>
-
-        
-    <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
-      <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#D97706; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#D97706; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#D97706; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:1.5rem;font-weight:700">Associated technical services</h2>
-        <div class="sub-svc-grid">
-          <div class="sub-svc"><div class="sub-svc-num" style="color:#D97706;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#1C1917;font-size:1.1rem;margin:.3rem 0 .5rem">Pre-Production Anchor Testing and Design Validation</h3><p style="color:#333;line-height:1.65;font-size:.93rem">We install sacrificial test anchors in the exact soil units that will carry the working load, pulling each tendon to 133 percent of the design load while monitoring creep with a dial gauge and digital load cell. The resulting bond stress values are used to adjust bonded lengths before production drilling begins.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#D97706;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#1C1917;font-size:1.1rem;margin:.3rem 0 .5rem">Corrosion Risk Assessment and Protection Specification</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Using soil resistivity measurements and groundwater pH data from the site, we classify the aggressivity of the ground and specify the appropriate protection level, from single encapsulated strand in low-risk conditions to full double corrosion protection with factory-grouted sheath for permanent installations near the Fraser River floodplain.</p></div>
-        </div>
-      </div>
-    </section>
-
-        <h2>Typical parameters</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D97706;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D97706;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Design load range (active)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">200 kN to 1,200 kN per strand anchor</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Bonded length in glacial till</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">6 m to 12 m depending on plasticity index</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Unbonded length minimum</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">4.5 m or per CSA A23.3 Annex D</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Corrosion protection grade</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Double Corrosion Protection (DCP) for permanent</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Proof test acceptance criteria</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Creep < 2.0 mm over 60 minutes at 133% DL</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical borehole diameter</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">100 mm to 200 mm using rotary or duplex drilling</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Grout compressive strength at 28 days</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">35 MPa minimum, w/c ratio < 0.45</td></tr></tbody></table></div>
-
-        <h2>Frequently asked questions</h2><details class="faq"><summary>What is the difference between an active anchor and a passive anchor in retaining wall design?</summary><p>An active anchor is tensioned with a hydraulic jack to a specified lock-off load before the excavation proceeds, actively compressing the soil mass and limiting lateral movement from the start. A passive anchor, typically a grouted threadbar, is not tensioned and only develops resistance once the wall begins to deflect and the ground deforms. In Maple Ridge, where adjacent structures are often close, active anchors are preferred for cuts deeper than six meters to keep lateral displacement below 25 millimeters.</p></details><details class="faq"><summary>How much does anchor design and testing cost for a typical Maple Ridge project?</summary><p>For a mid-size tied-back wall with 20 to 40 anchors, the combined cost of design, pre-production testing, and construction-phase load testing typically falls between CA$1,360 and CA$4,510 per anchor, depending on whether the system is temporary or permanent, the corrosion protection level required, and the accessibility of the drilling rig.</p></details><details class="faq"><summary>What is the typical bonded length for a soil anchor in the glacial till found around Maple Ridge?</summary><p>In the dense Vashon Drift till that underlies much of Maple Ridge, bonded lengths typically range from 6 to 12 meters for working loads between 200 and 800 kN. The exact length is determined by the results of pre-production pull-out tests, because the till's matrix content can vary significantly within a single site, affecting the grout-to-soil bond strength.</p></details><details class="faq"><summary>How do you verify that an installed anchor meets its design capacity?</summary><p>Every anchor undergoes a proof test where the tendon is stressed to 133 percent of the design load and held for 60 minutes while creep is monitored. The acceptance criterion is typically less than 2.0 millimeters of movement during the hold period. In Maple Ridge, we also perform lift-off tests on 10 percent of production anchors after lock-off to verify that the residual load has not dropped below 100 percent of the design value.</p></details>
-    
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../liquefaction/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Soil liquefaction analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-isolation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Base isolation seismic design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-microzonation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismic microzonation</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
 </div>
 
@@ -169,7 +132,7 @@ footer a{color:#D97706}
       </div>
     </section>
 
-<footer style="background:#1C1917;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technical updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">Get email updates</p><form action="mailto:contact@geotechnicalengineering.xyz" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Your email" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#D97706;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Subscribe</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Maple Ridge, Canada · <a href="mailto:contact@geotechnicalengineering.xyz" style="color:rgba(255,255,255,.7)">contact@geotechnicalengineering.xyz</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-01</div></footer>
+<footer style="background:#1C1917;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technical updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">Stay informed</p><form action="mailto:contact@geotechnicalengineering.xyz" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Your email" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#D97706;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Subscribe</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Maple Ridge, Canada · <a href="mailto:contact@geotechnicalengineering.xyz" style="color:rgba(255,255,255,.7)">contact@geotechnicalengineering.xyz</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-04-17" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-04-17</div></footer>
 
 <script id="sidebar-toggle-v3">
 (function(){
